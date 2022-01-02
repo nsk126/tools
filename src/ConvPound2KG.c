@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 
     }else{
 
-        float mass = atoi(argv[1]) * P2KG;
+        float mass = atof(argv[1]) * P2KG;
         printf("Mass in Kg = %f\n", mass);
     
     }
